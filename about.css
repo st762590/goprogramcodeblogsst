@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-me img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.skills {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+.skills li:before {
+  content: "\2713";
+  margin-right: 10px;
+  color: #337ab7;
+}
+
+.experience {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.experience ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience li {
+  margin-bottom: 10px;
+}
+
+.experience li:before {
+  content: "\2022";
+  margin-right: 10px;
+  color: #337ab7;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
