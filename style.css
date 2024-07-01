@@ -64,6 +64,12 @@ article {
   width: 300px;
 }
 
+img {
+  padding-top: 10px;
+  width: 300px;
+  justify-content: center;
+}
+
 article h3 {
   margin-top: 0;
 }
