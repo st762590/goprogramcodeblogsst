@@ -1,0 +1,149 @@
+/* Contact Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+.contact-page {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 20px;
+  width: 340px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.phone, .email, .address {
+  font-weight: bold;
+  color: #00698f;
+}
+
+.contact-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-media {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin: 0 10px;
+}
