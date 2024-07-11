@@ -27,11 +27,17 @@ function notifyFalse() {
   }
 }
 
+function showNotification() {
+  var notificationBody = new Notification('New message for Go program Code Blogs',{
+    body:'Go Program Code Blogs'
+    
+  })
+}
 
 function showNotification() {
   var notificationBody = new Notification('New message for Go program Code Blogs',{
-    body:'Go Program Code World'
-    
+    body: 'Go Program Code Blogs'
+
   })
 }
 
@@ -40,8 +46,12 @@ function notifyOption(){
     if(Notification.permission == 'granted'){
       // showNotification();
       if(localStorage.notifyMessage === undefined){
-        localStorage.setItem('notifyMessage', 'true'),
+        localStorage.setItem('notifyMessage', 'true');
         showNotification();
+      }
+      if (localStorage.notifyMessage2 === undefined) {
+        localStorage.setItem('notifyMessage2', 'true');
+          showNotification2();
       }
     } else if(Notification.permission !=='denied'){
       Notification.requestPermission().then(permission => {
