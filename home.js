@@ -13,7 +13,7 @@ function notifyTrue() {
   document.querySelector('.notify-alert-box').style.display = 'none'
   }
 }
-notifyTrue();
+
 
 
 document.querySelector('#notify-cancel-button').onclick = async () => {
