@@ -100,3 +100,37 @@ a{
   font-size: 16px;
   text-decoration: none;
 }
+
+.notify-alert-box{
+  width: 400px;
+  position: fixed;
+  left: 50%;
+  margin-left: -200px;
+  top: -100%;
+  z-index: 100000;
+  background: #fff;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.notify-alert-box img{
+  width: 70px;
+  float: left;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.notify-alert-box .buttons{
+  text-align: right;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.notify-alert-box .buttons button{
+  background: #024e73;
+  color: #fff;
+  border: 0;
+  padding: 8px 15px;
+  font-size: 15px;
+}

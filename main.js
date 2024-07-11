@@ -20,3 +20,7 @@ searchInput.addEventListener('input', (e) => {
     searchResults.appendChild(listItem);
   });
 });
+
+setTimeout(function(){
+  document.querySelector('.notify-alert-box').style.top = '0'
+},1000)
