@@ -102,11 +102,13 @@ a{
 }
 
 .notify-alert-box{
-  width: 400px;
+  width: 350px;
   position: fixed;
   left: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-left: -200px;
-  top: 0%;
+  top: -100%;
   z-index: 100000;
   background: #fff;
   color: #333;
